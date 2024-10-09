@@ -1,0 +1,54 @@
+*{
+ margin: 0px;
+}
+
+/* adding fonts  */
+.open-sans-font{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* nav related styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px;
+    align-items: center;
+}
+.nav-tittle{
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.primary-color{
+    color: #FD6E0A;
+}  
+.dark-2{
+    color: #474747;
+}
+.primary-btn{
+    border-radius: 5px;
+background: #FD6E0A;
+padding: 16px 30px;
+color: var(--White-Color, #FFF);
+font-family: "Open Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+border: none;
+}
+nav li a{
+     text-decoration:none;
+     margin-right: 45px;
+     
+}
+nav li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
