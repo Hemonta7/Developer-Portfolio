@@ -1,54 +1,102 @@
-*{
- margin: 0px;
+* {
+    margin: 0px;
 }
 
 /* adding fonts  */
-.open-sans-font{
+.open-sans-font {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
+}
 
 /* nav related styles */
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     margin: 50px 230px;
     align-items: center;
 }
-.nav-tittle{
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+
+.nav-tittle {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.primary-color{
+
+.primary-color {
     color: #FD6E0A;
-}  
-.dark-2{
+}
+
+.dark-2 {
     color: #474747;
 }
-.primary-btn{
+
+.primary-btn {
     border-radius: 5px;
-background: #FD6E0A;
-padding: 16px 30px;
-color: var(--White-Color, #FFF);
-font-family: "Open Sans";
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-border: none;
+    background: #FD6E0A;
+    padding: 16px 30px;
+    color: var(--White-Color, #FFF);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
 }
-nav li a{
-     text-decoration:none;
-     margin-right: 45px;
-     
+
+nav li a {
+    text-decoration: none;
+    margin-right: 45px;
+
 }
-nav li{
+
+nav li {
     list-style: none;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
+}
+
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-left: 30px;
+
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 585px;
+    margin-left: 225px;
+}
+.banner-greetings {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-tittle {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-description {
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.banner-picture{
+    width: 585px;
 }
