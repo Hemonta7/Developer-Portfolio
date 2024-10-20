@@ -286,3 +286,33 @@ nav ul {
     padding: 18px 0px 0px 30px;
     margin-bottom: 24px;
 }
+
+/* responsive media query */
+/* mobile devices */
+
+@media screen and (max-width:576px) {
+    .skil-container,
+    .footer-container,
+    .resume-container,.about-items,.banner,.navbar,.nav ul {
+        flex-direction: column;
+    }
+    .banner-content{
+        margin-left: 0px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-picture{
+        width: 100%;
+    }
+    .footer-container,.about {
+        padding: 20px;
+    }
+
+    .input {
+        width: calc(100% - 50px);
+    }
+    .input-text{
+        padding: 0px;
+    }
+}
